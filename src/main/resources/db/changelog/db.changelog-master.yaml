@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Дмитрий Ельцов
+  - include:
+      file: /db/migration/V1__init_users.yaml
+  - include:
+      file: /db/migration/V1__init_cards.yaml
+  - include:
+      file: /db/migration/V1__init_transfers.yaml

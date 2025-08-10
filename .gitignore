@@ -23,6 +23,7 @@
 hs_err_pid*
 replay_pid*
 
+amplicode.xml
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
